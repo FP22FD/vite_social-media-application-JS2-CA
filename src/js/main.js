@@ -1,7 +1,13 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
+// Import our custom CSS
+import '../scss/styles.scss'
+
+// Import all of Bootstrap's JS
+import * as bootstrap from 'bootstrap'
+
+import '../../style.css'
+import javascriptLogo from '../../javascript.svg'
 import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import { setupCounter } from '../../counter.js'
 
 document.querySelector('#app').innerHTML = `
   <div>

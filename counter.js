@@ -1,3 +1,7 @@
+/**
+ * @description This is a counter function by Vite bundler
+ * @param {*} element 
+ */
 export function setupCounter(element) {
   let counter = 0
   const setCounter = (count) => {

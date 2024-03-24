@@ -1,3 +1,10 @@
+// Import our custom CSS
+import '../../scss/styles.scss'
+
+// Import all of Bootstrap's JS
+// eslint-disable-next-line no-unused-vars
+import * as bootstrap from 'bootstrap'
+
 import { API_BASE, API_POSTS, API_GET_POSTS_PARAMS, API_KEY } from "../settings.mjs";
 import { load } from "../shared/storage.mjs";
 import { sanitize } from "../shared/sanitize.mjs";

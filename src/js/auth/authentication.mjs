@@ -1,12 +1,13 @@
+// Import our custom CSS
+import '../../scss/styles.scss'
+
+// Import all of Bootstrap's JS
+// eslint-disable-next-line no-unused-vars
+import * as bootstrap from 'bootstrap'
+
 import { displayError } from "../shared/displayErrorMsg.mjs";
 import { login } from "./login.mjs";
 import { register } from "./register.mjs";
-
-// Import our custom CSS
-import '../scss/styles.scss'
-
-// Import all of Bootstrap's JS
-import * as bootstrap from 'bootstrap'
 
 const registerForm = document.querySelector("#register-form");
 const loginForm = document.querySelector("#login-form");

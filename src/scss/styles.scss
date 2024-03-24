@@ -1,9 +1,6 @@
-// Import all of Bootstrap's CSS
-@import "bootstrap/scss/bootstrap";
-
 @font-face {
     font-family: "fontdiner";
-    src: url("/assets/fonts/Fontdiner_Swanky/FontdinerSwanky-Regular.ttf") format(truetype);
+    src: url("/fonts/Fontdiner_Swanky/FontdinerSwanky-Regular.ttf") format(truetype);
 }
 
 .font-fontdiner {
@@ -12,6 +9,8 @@
 
 @import "variables";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
 .max-vh-50 {
     max-height: 50vh;

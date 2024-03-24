@@ -1,3 +1,5 @@
+import DOMPurify from 'dompurify';
+
 /** 
  * @description Sanitize a html string to be safe to use 
  * @function sanitize

@@ -36,7 +36,6 @@
     "url": "https://github.com/FP22FD/vite_social-media-application-JS2-CA/issues"
   },
   "homepage": "https://github.com/FP22FD/vite_social-media-application-JS2-CA#readme",
-  "main": "index.js",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",

@@ -2,6 +2,7 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
+  "description": "A starting point for tests project",
   "type": "module",
   "scripts": {
     "dev": "vite --port 8080 --host 127.0.0.1 --open",
@@ -14,6 +15,28 @@
     "test-e2e": "cypress open",
     "test-e2e-cli": "cypress run"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FP22FD/vite_social-media-application-JS2-CA.git"
+  },
+  "keywords": [
+    "CSS",
+    "CSS",
+    "Frameworks",
+    "Bootstrap",
+    "SCSS",
+    "SASS",
+    "vitest",
+    "cypress",
+    "jest"
+  ],
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "cli-table": "^0.3.11",
+    "dompurify": "^3.0.11"
+  },
   "devDependencies": {
     "cypress": "^13.7.1",
     "eslint": "^8.57.0",
@@ -22,12 +45,5 @@
     "sass": "^1.72.0",
     "vite": "^5.2.0",
     "vitest": "^1.4.0"
-  },
-  "dependencies": {
-    "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3",
-    "bootstrap-icons": "^1.11.3",
-    "cli-table": "^0.3.11",
-    "dompurify": "^3.0.11"
   }
 }

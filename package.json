@@ -1,55 +1,33 @@
 {
-  "name": "vite-project",
+  "name": "react-project",
   "private": true,
   "version": "0.0.0",
-  "description": "A starting point for tests project",
   "type": "module",
   "scripts": {
     "dev": "vite --port 8080 --host 127.0.0.1 --open",
-    "build": "vite build",
-    "preview": "vite preview",
-    "docs": "jsdoc -c ./conf.json -r",
-    "unit-test": "vitest run",
-    "test-watch": "vitest",
-    "e2e-test": "npm run test-e2e",
-    "test-e2e": "cypress open",
-    "test-e2e-cli": "cypress run"
+    "build": "tsc -b && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FP22FD/vite_social-media-application-JS2-CA.git"
-  },
-  "keywords": [
-    "CSS",
-    "CSS",
-    "Frameworks",
-    "Bootstrap",
-    "SCSS",
-    "SASS",
-    "vitest",
-    "cypress",
-    "jest"
-  ],
-  "author": "Fernanda Pereira Gomes <ferper70123@stud.noroff.no>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FP22FD/vite_social-media-application-JS2-CA/issues"
-  },
-  "homepage": "https://github.com/FP22FD/vite_social-media-application-JS2-CA#readme",
   "dependencies": {
-    "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3",
-    "bootstrap-icons": "^1.11.3",
-    "cli-table": "^0.3.11",
-    "dompurify": "^3.0.11"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.0"
   },
   "devDependencies": {
-    "cypress": "^13.7.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
-    "eslint-plugin-cypress": "^2.15.1",
-    "jsdoc": "^4.0.2",
-    "sass": "^1.72.0",
-    "vite": "^5.2.0",
-    "vitest": "^1.4.0"
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "postcss": "^8.4.38",
+    "sass": "^1.77.6",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4"
   }
 }
